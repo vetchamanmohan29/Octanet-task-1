@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .menu-item {
+            text-align: center;
+        }
+
+        .menu-item img {
+            max-width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pizza Delight</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Reservations</a>
+        <a href="#">Contact</a>
+        <a href="#">Delivery</a>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <h2>Welcome to Our Restaurant</h2>
+            <p>Discover a world of exquisite flavors and exceptional dining experiences.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="cheese.jpg" alt="cheese pizza">
+                    <h3>cheese pizza</h3>
+                    <p> the perfect combination of cheese, salt and a pinch of dough and Elevating the flavour of your favourite toppings.</p>
+                    <p>Price: 180 rs</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pepperoni.jpg" alt="pepperoni Pizza">
+                    <h3>pepperoni Pizza</h3>
+                    <p>Pepperoni comes from a mixture of ground meat mixed with spices,Salt and sodium nitrate are then added to the meat.</p>
+                    <p>Price: 240 rs</p>
+                </div>
+                <div class="menu-item">
+                    <img src="margherita2.jpg" alt="Margherita Pizza">
+                    <h3>Margherita Pizza</h3>
+                    <p>margherita pizza features a bubbly crust, crushed San Marzano tomato sauce, fresh mozzarella and basil.</p>
+                    <p>Price: 210 rs</p>
+                </div>
+                <div class="menu-item">
+                    <img src="bbq chicken.jpg" alt="Bbq chicken pizza">
+                    <h3>Bbq chicken pizza</h3>
+                    <p>his BBQ chicken pizza is loaded with diced chicken, spicy barbecue sauce, pepperoncini peppers, onion, and cilantro.</p>
+                    <p>Price: 270 rs</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Paneer.jpg" alt="Paneer Pizza">
+                    <h3>Paneer Pizza</h3>
+                    <p> Pizza crust layered with a Special sauce, paneer, bell pepper, onions, and cheese.</p>
+                    <p>Price: 270 rs</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Reservations</h2>
+            <p>Book a table to enjoy an unforgettable dining experience with us.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Pizza Delight
+    </footer>
+</body>
+</html>
